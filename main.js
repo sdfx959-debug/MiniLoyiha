@@ -103,7 +103,7 @@ myform.addEventListener("submit", (e) => {
 render();
 
 function deletef(index) {
-    data.splice(index, 1)
-    localStorage.setItem("data", JSON.stringify(data))
+    users.splice(index, 1)
+    localStorage.setItem("users", JSON.stringify(users))
     render()
 }
